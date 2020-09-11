@@ -25,6 +25,7 @@ void solve() {
     for (int j = 1; j <= objetive; j++)
         DP[0][j] = false;
 
+    // Caso recursivo
     for (int i = 1; i <= bars; i++)
         for (int j = 1; j <= objetive; j++)
             DP[i][j] = DP[i - 1][j] || (j - v[i] >= 0 && DP[i-1][j - v[i]]);

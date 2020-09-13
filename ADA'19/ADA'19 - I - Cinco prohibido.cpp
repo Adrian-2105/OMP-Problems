@@ -3,10 +3,7 @@ using namespace std;
 
 typedef long long int ll;
 
-// Nonario
 int a, b;
-// Decimal
-int A, B, C;
 
 ll potencia(ll n, int p) {
     if (p == 0)

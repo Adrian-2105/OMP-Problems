@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 #include <iostream>
 #include <stdio.h>
 #include <algorithm>  
@@ -22,7 +25,6 @@
 #include <unordered_set>
 #include <numeric>
 #include <vector>
-using namespace std;
 
 #define maxn 501
 #define mod 1000009

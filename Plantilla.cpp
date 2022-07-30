@@ -1,31 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#include <iostream>
-#include <stdio.h>
-#include <algorithm>
-#include <assert.h>
-#include <bits/stdc++.h>
-#include <bitset>
-#include <cmath>
-#include <complex>
-#include <deque>
-#include <functional>
-#include <limits.h>
-#include <map>
-#include <math.h>
-#include <queue>
-#include <set>
-#include <stack>
-#include <stdlib.h>
-#include <string.h>
-#include <string>
-#include <time.h>
-#include <unordered_map>
-#include <unordered_set>
-#include <numeric>
-#include <vector>
-
 #define INF 200000000
 #define FOR(i, j, k, in) for (int i = j; i < k; i += in)
 #define REP(i, j) FOR(i, 0, j, 1)
@@ -53,8 +28,7 @@ typedef stringstream ss;
 #define ldb ldouble
 
 // Funciones macro
-#define read_array(v, n) REP(i,n) cin >> v[i]
-#define read_vector(v, n, aux) REP(i,n) {cin >> aux; v.pb(aux);}
+#define read_vector(v, n) REP(i,n) {cin >> v[i];}
 #define read_matrix(M, m, n) REP(i,m) REP(j,n) cin >> M[i][j]
 #define read_line_SS(SS) string s; getline(cin, s); SS << s
 #define print_array(a, n) REP(i,n) cout << a[i] << " "; cout << endl

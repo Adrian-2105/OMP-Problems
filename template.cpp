@@ -38,11 +38,8 @@ void readMatrix(vector<vector<T>> &v, ull n = 0, ull m = 0) {
         exit(1);
     }
 
-    if (n > 0) n = v.size();
-    for (auto& row: v) {
-        if (m > 0) row.resize(m);
-        for (auto& elem: row) cin >> elem;
-    } 
+    if (n > 0) n = v.resize(n);
+    for (auto& row: v) readVector(row, m);
 }
 
 string readLine() {
@@ -81,7 +78,8 @@ int main() {
 
     int c;
     cin >> c;
-    while(c--) {
+    for (int i = 1; i <= c; i++) {
+        // cout << "Case " << i << ": ";
         solve();
     }
 }

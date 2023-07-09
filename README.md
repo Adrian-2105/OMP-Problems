@@ -1,18 +1,21 @@
-## ¿Qué es este repositorio?
+## What is this repository?
 
-En este repositorio reúno todos mis problemas resueltos de pasadas ediciones de la 
-Olimpiada Murciana de Programación (OMP) y del concurso AdaByron (ADA).
+In this repository, I gather all my solved problems from the past editions of the 
+Murcian Programming Olympiad (OMP) and the AdaByron contest (ADA).
 
-## ¿Dónde puedo ver los problemas?
+The proposed solutions include, for the most part, comments in Spanish.
 
-Desgraciadamente, estos problemas no se pueden consultar durante todo el año. 
-La única forma de verlos es en la página web 
-[Mooshak](http://onlinejudge.inf.um.es/~mooshak/cgi-bin/execute/9142536785985593)
-durante el periodo que esta se encuentra abierta.
 
-Igualmente, se intentará ir añadiendo, sobre la marcha, los enunciados de cada problema en formato PDF para cada uno de los concursos
+## Where can I see the problems?
 
-## ¿Cómo contribuir?
+Unfortunately, these problems are not available for viewing throughout the year. 
+The only way to view them is on the web page [Mooshak](http://onlinejudge.inf.um.es/~mooshak)
+during the period it is open.
 
-Puedes contibuir aportando nuevos problemas resueltos, mejoras para las soluciones actuales
-o incluso nuevas soluciones para un problema ya resuelto. Solicita realizar un *pull request* al repositorio o mándame un mensaje por algún medio para añadirlo ;)
+In some contests, the statement has been downloaded in PDF format and added to the repository (those of the OMP are in English, those of ADA in Spanish).
+
+
+## How to contribute?
+
+You can contribute with new solved problems, improvements to current solutions or even new solutions to an already solved problem.
+or even new solutions for an already-solved problem. Request a *pull request* to the repository or send me a message to add it ;)
